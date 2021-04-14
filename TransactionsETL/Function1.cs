@@ -21,7 +21,7 @@ namespace TransactionsETL
         }
 
         [FunctionName("Function1")]
-        public static async void Run([BlobTrigger("transactions/{name}", Connection = "storageConnectionString")]Stream myBlob,
+        public static void Run([BlobTrigger("transactions/{name}", Connection = "storageConnectionString")]Stream myBlob,
             [CosmosDB(
     databaseName: "finvisdb",
     collectionName: "transactions",
