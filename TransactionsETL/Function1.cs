@@ -23,14 +23,15 @@ namespace TransactionsETL
         [FunctionName("Function1")]
         public static void Run([BlobTrigger("transactions/{name}", Connection = "storageConnectionString")]Stream myBlob,
             [CosmosDB(
-    databaseName: "finvisdb",
-    collectionName: "transactions",
+    databaseName: "finvis",
+    collectionName: "finvis-c1",
+    CreateIfNotExists = true,
     ConnectionStringSetting = "cosmosdbConnectionString")]ICollector<dynamic> documentsOut,
             string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
 
-            Transaction t = new Transaction { TransactionId = name };
+            Transaction t = new Transaction { TransactionId = nam"e };
             documentsOut.Add(t);
         }
     }
