@@ -31,7 +31,7 @@ namespace TransactionsETL
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
 
-            Transaction t = new Transaction { TransactionId = nam"e };
+            Transaction t = new Transaction { TransactionId = name };
             documentsOut.Add(t);
         }
     }
