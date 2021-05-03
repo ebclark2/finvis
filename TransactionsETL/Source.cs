@@ -24,7 +24,7 @@ namespace FinVis
         }
     }
 
-    interface Source: IEnumerable<Transaction>
+    public interface Source: IEnumerable<Transaction>
     {
     }
 }

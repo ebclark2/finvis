@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTestData", "GenerateTestData\GenerateTestData.csproj", "{94DCB13B-1B65-451C-9191-B4C453055A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateTestData", "GenerateTestData\GenerateTestData.csproj", "{94DCB13B-1B65-451C-9191-B4C453055A29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsETL", "TransactionsETL\TransactionsETL.csproj", "{FBB4A28A-20FC-4C06-AA4F-31810BC2ED48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionsETL", "TransactionsETL\TransactionsETL.csproj", "{FBB4A28A-20FC-4C06-AA4F-31810BC2ED48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4525F82-FA5B-4D36-94AA-10377E6E299B}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\TransactionsETL.yml = .github\workflows\TransactionsETL.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinVisTest", "FinVisTest\FinVisTest.csproj", "{F2839BCF-4660-4111-B869-627F0DEC29F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{FBB4A28A-20FC-4C06-AA4F-31810BC2ED48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB4A28A-20FC-4C06-AA4F-31810BC2ED48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB4A28A-20FC-4C06-AA4F-31810BC2ED48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2839BCF-4660-4111-B869-627F0DEC29F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2839BCF-4660-4111-B869-627F0DEC29F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2839BCF-4660-4111-B869-627F0DEC29F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2839BCF-4660-4111-B869-627F0DEC29F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
