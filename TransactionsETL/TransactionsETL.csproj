@@ -5,7 +5,6 @@
     <UserSecretsId>953a0640-4a0b-4058-ae93-47d3cf525f54</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="27.0.2" />
     <PackageReference Include="Microsoft.Azure.DocumentDB" Version="2.13.1" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.5" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.10" />
