@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.github\workflows\TransactionsETL.yml = .github\workflows\TransactionsETL.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinVisTest", "FinVisTest\FinVisTest.csproj", "{F2839BCF-4660-4111-B869-627F0DEC29F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinVisCommonTest", "FinVisCommonTest\FinVisCommonTest.csproj", "{F2839BCF-4660-4111-B869-627F0DEC29F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinVisCommon", "FinVisCommon\FinVisCommon.csproj", "{AF25DF03-4759-418C-B230-66E7E48234A7}"
 EndProject
